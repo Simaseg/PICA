@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 8a3ae15c759b9458fb1b731a4a169087
+timeCreated: 1451924610
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LEVEL1_Letter+Platforms_0
+    21300002: LEVEL1_Letter+Platforms_1
+    21300004: LEVEL1_Letter+Platforms_2
+    21300006: LEVEL1_Letter+Platforms_3
+    21300008: LEVEL1_Letter+Platforms_4
+    21300010: LEVEL1_Letter+Platforms_5
+    21300012: LEVEL1_Letter+Platforms_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: LEVEL1_Letter+Platforms_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2066
+        width: 2807
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 415.59998, y: 32.900024}
+        - {x: 513.6, y: 100.900024}
+        - {x: 523.6, y: 107.900024}
+        - {x: 562.6, y: 134.90002}
+        - {x: 562.6, y: 139.90002}
+        - {x: 561.6, y: 140.90002}
+        - {x: 329.59998, y: 140.90002}
+        - {x: 328.59998, y: 141.90002}
+        - {x: 75.599976, y: 141.90002}
+        - {x: 74.599976, y: 142.90002}
+        - {x: -561.4, y: 142.90002}
+        - {x: -561.4, y: 138.90002}
+        - {x: -550.4, y: 134.90002}
+        - {x: -535.4, y: 128.90002}
+        - {x: -271.40002, y: 24.900024}
+        - {x: 134.59998, y: -135.09998}
+        - {x: 152.59998, y: -142.09998}
+        - {x: 163.59998, y: -142.09998}
+        - {x: 225.59998, y: -100.099976}
+        - {x: 255.59998, y: -78.099976}
+        - {x: 311.59998, y: -39.099976}
+      - - {x: 104.599976, y: -86.099976}
+        - {x: -225.40002, y: 43.900024}
+        - {x: -301.40002, y: 73.900024}
+        - {x: -393.40002, y: 109.900024}
+        - {x: -395.40002, y: 109.900024}
+        - {x: -398.40002, y: 111.900024}
+        - {x: -400.40002, y: 110.900024}
+        - {x: -34.400024, y: 109.900024}
+        - {x: -33.400024, y: 108.900024}
+        - {x: 219.59998, y: 108.900024}
+        - {x: 220.59998, y: 107.900024}
+        - {x: 465.59998, y: 108.900024}
+        - {x: 463.59998, y: 108.900024}
+        - {x: 461.59998, y: 105.900024}
+        - {x: 459.59998, y: 106.900024}
+        - {x: 381.59998, y: 52.900024}
+        - {x: 225.59998, y: -56.099976}
+        - {x: 169.59998, y: -95.099976}
+        - {x: 155.59998, y: -106.099976}
+    - name: LEVEL1_Letter+Platforms_1
+      rect:
+        serializedVersion: 2
+        x: 4089
+        y: 2226
+        width: 610
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.900024, y: 92.400024}
+        - {x: -121.900024, y: 55.400024}
+        - {x: -121.900024, y: 29.400024}
+        - {x: -59.900024, y: -91.599976}
+        - {x: 120.099976, y: -91.599976}
+        - {x: 123.099976, y: -76.599976}
+        - {x: 123.099976, y: 19.400024}
+        - {x: -15.900024, y: 92.400024}
+    - name: LEVEL1_Letter+Platforms_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 916
+        width: 613
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.4, y: 14.899994}
+        - {x: 81.4, y: 110.899994}
+        - {x: 36.4, y: 160.9}
+        - {x: 28.400002, y: 169.9}
+        - {x: -51.6, y: 169.9}
+        - {x: -122.6, y: 130.9}
+        - {x: -122.6, y: 77.899994}
+        - {x: 98.4, y: -169.1}
+        - {x: 111.4, y: -169.1}
+        - {x: 123.4, y: -155.1}
+        - {x: 123.4, y: -147.1}
+        - {x: -9.599998, y: 11.899994}
+    - name: LEVEL1_Letter+Platforms_3
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 1736
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.399963, y: 25.400024}
+        - {x: -24.399963, y: 15.400024}
+        - {x: -24.399963, y: -15.599976}
+        - {x: -11.399963, y: -24.599976}
+        - {x: 16.600037, y: -24.599976}
+        - {x: 25.600037, y: -17.599976}
+        - {x: 25.600037, y: 14.400024}
+        - {x: 19.600037, y: 25.400024}
+    - name: LEVEL1_Letter+Platforms_4
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 1371
+        width: 515
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.900024, y: 144.40002}
+        - {x: -102.900024, y: 126.400024}
+        - {x: -102.900024, y: -58.599976}
+        - {x: -73.900024, y: -132.59998}
+        - {x: -34.900024, y: -143.59998}
+        - {x: 86.099976, y: -143.59998}
+        - {x: 104.099976, y: -138.59998}
+        - {x: 104.099976, y: -105.599976}
+        - {x: 103.099976, y: -103.599976}
+        - {x: 104.099976, y: -96.599976}
+        - {x: 104.099976, y: 144.40002}
+    - name: LEVEL1_Letter+Platforms_5
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 1024
+        width: 78
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: LEVEL1_Letter+Platforms_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 321
+        width: 3168
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 633.4, y: -97.59999}
+        - {x: 634.4, y: -96.59999}
+        - {x: 634.4, y: -65.59999}
+        - {x: 633.4, y: -64.59999}
+        - {x: 253.40002, y: -63.59999}
+        - {x: 232.40002, y: -56.59999}
+        - {x: -300.59998, y: 99.40001}
+        - {x: -327.59998, y: 99.40001}
+        - {x: -330.59998, y: 98.40001}
+        - {x: -559.6, y: -28.59999}
+        - {x: -633.6, y: -70.59999}
+        - {x: -633.6, y: -78.59999}
+        - {x: -621.6, y: -98.59999}
+        - {x: -611.6, y: -98.59999}
+        - {x: -316.59998, y: 64.40001}
+        - {x: 247.40002, y: -98.59999}
+        - {x: 324.40002, y: -98.59999}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

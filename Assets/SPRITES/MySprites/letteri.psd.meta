@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: d091eebce421c4a98a2c4c7baee53bf5
+timeCreated: 1451935134
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: letteri_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: letteri_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 239
+        height: 1632
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74.5, y: -804}
+        - {x: 74.5, y: 196}
+        - {x: -71.5, y: 196}
+        - {x: -71.5, y: -804}
+      - - {x: 64.5, y: 600}
+        - {x: 74.5, y: 607}
+        - {x: 89.5, y: 622}
+        - {x: 94.5, y: 628}
+        - {x: 97.5, y: 632}
+        - {x: 104.5, y: 642}
+        - {x: 110.5, y: 656}
+        - {x: 114.5, y: 668}
+        - {x: 116.5, y: 677}
+        - {x: 117.5, y: 683}
+        - {x: 117.5, y: 714}
+        - {x: 116.5, y: 720}
+        - {x: 115.5, y: 725}
+        - {x: 113.5, y: 733}
+        - {x: 111.5, y: 738}
+        - {x: 103.5, y: 756}
+        - {x: 95.5, y: 768}
+        - {x: 75.5, y: 788}
+        - {x: 70.5, y: 792}
+        - {x: 61.5, y: 798}
+        - {x: 57.5, y: 801}
+        - {x: 43.5, y: 807}
+        - {x: 31.5, y: 811}
+        - {x: 22.5, y: 813}
+        - {x: 16.5, y: 814}
+        - {x: -14.5, y: 814}
+        - {x: -20.5, y: 813}
+        - {x: -29.5, y: 811}
+        - {x: -41.5, y: 807}
+        - {x: -46.5, y: 805}
+        - {x: -57.5, y: 800}
+        - {x: -62.5, y: 797}
+        - {x: -68.5, y: 793}
+        - {x: -76.5, y: 786}
+        - {x: -89.5, y: 773}
+        - {x: -96.5, y: 764}
+        - {x: -100.5, y: 758}
+        - {x: -103.5, y: 754}
+        - {x: -108.5, y: 743}
+        - {x: -112.5, y: 732}
+        - {x: -114.5, y: 724}
+        - {x: -116.5, y: 714}
+        - {x: -116.5, y: 683}
+        - {x: -115.5, y: 677}
+        - {x: -113.5, y: 668}
+        - {x: -109.5, y: 656}
+        - {x: -106.5, y: 649}
+        - {x: -104.5, y: 644}
+        - {x: -100.5, y: 637}
+        - {x: -92.5, y: 627}
+        - {x: -84.5, y: 618}
+        - {x: -81.5, y: 615}
+        - {x: -73.5, y: 608}
+        - {x: -69.5, y: 605}
+        - {x: -60.5, y: 599}
+        - {x: -51.5, y: 594}
+        - {x: -44.5, y: 591}
+        - {x: -36.5, y: 588}
+        - {x: -29.5, y: 586}
+        - {x: -20.5, y: 584}
+        - {x: -13.5, y: 583}
+        - {x: 15.5, y: 583}
+        - {x: 22.5, y: 584}
+        - {x: 35.5, y: 587}
+        - {x: 46.5, y: 591}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
