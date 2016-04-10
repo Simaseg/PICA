@@ -58,8 +58,8 @@ public class NewPlayerControler : MonoBehaviour {
 
 		}
 
-		if (transform.position.y < -80) {
-			transform.position = new Vector3 (-55, 2, 0);
+		if (transform.position.y < -70) {
+			transform.position = new Vector3 (-55, 30, 0);
 		}
 
 		if (bigJump == true)
@@ -132,10 +132,11 @@ public class NewPlayerControler : MonoBehaviour {
 
 		if (other.gameObject.tag == "Ennemi") 
 		{
+			transform.position = new Vector3 (-55, 30, 0);
 
-			Collider2D[] cols = GetComponents<Collider2D>();
-			for (int i = 0; i < cols.Length; i++) {
-				cols [i].isTrigger = true;
+//			Collider2D[] cols = GetComponents<Collider2D>();
+//			for (int i = 0; i < cols.Length; i++) {
+//				cols [i].isTrigger = true;
 				PlaySound (1);
 			}
 
@@ -146,5 +147,5 @@ public class NewPlayerControler : MonoBehaviour {
 	}
 
 
-}
+
 }

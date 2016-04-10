@@ -22,7 +22,7 @@ public class PicaScoreLevel3 : MonoBehaviour {
 
 		
 		if (count == 5) {
-			Application.LoadLevel ("MENU_main");
+			Application.LoadLevel ("Bravo");
 			Cursor.visible = true;
 			
 		}
