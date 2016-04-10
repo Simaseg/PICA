@@ -20,4 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_SCENE/Level1.unity
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Bravo.unity
+=======
+    path: Assets/_SCENE/EnterName.unity
+>>>>>>> 348566587b273eb1011957847e0205aa41d66cc7
