@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/_SCENE/MENU_Middle.unity
   - enabled: 1
     path: Assets/_SCENE/Level1.unity
+  - enabled: 1
+    path: Assets/_SCENE/EnterName.unity
