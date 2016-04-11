@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour {
 
@@ -9,8 +8,8 @@ public class LoadScene : MonoBehaviour {
 		if (Input.GetKey ("escape"))
 			Application.Quit ();
 
-        if (Input.GetButtonDown("Submit") && SceneManager.GetActiveScene().name == "Instructions") {
-            SceneManager.LoadScene("Level2");
+        if (Input.GetButtonDown("Submit") && Application.loadedLevelName == "Instructions") {
+			Application.LoadLevel("Level2");
         }
 	}
 

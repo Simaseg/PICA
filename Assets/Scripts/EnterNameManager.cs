@@ -2,7 +2,6 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 
 public class EnterNameManager : MonoBehaviour {
 
@@ -70,6 +69,6 @@ public class EnterNameManager : MonoBehaviour {
     public void Continue(string _sceneName) {
         LeaderboardManager.s_playerName = _name;
 
-        SceneManager.LoadScene(_sceneName);
+        Application.LoadLevel(_sceneName);
     }
 }

@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class LeaderboardManager : MonoBehaviour {
 
@@ -14,11 +13,11 @@ public class LeaderboardManager : MonoBehaviour {
     private float timeGlobal;
 	
 	void Update () {
-        if (SceneManager.GetActiveScene().name == "Level2") {
+		if (Application.loadedLevelName == "Level2") {
             s_level1time = Mathf.Round(Time.timeSinceLevelLoad);
         }
 
-        if (SceneManager.GetActiveScene().name == "Level1") {
+		if (Application.loadedLevelName == "Level1") {
             s_level2time = Mathf.Round(Time.timeSinceLevelLoad);
         }
 
