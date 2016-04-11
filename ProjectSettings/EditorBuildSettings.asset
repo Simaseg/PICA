@@ -8,16 +8,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_SCENE/MENU_main.unity
   - enabled: 1
-    path: Assets/Identificaiton.unity
+    path: Assets/_SCENE/EnterName.unity
   - enabled: 1
     path: Assets/Instructions.unity
   - enabled: 1
-    path: Assets/_SCENE/Controles.unity
-  - enabled: 1
     path: Assets/_SCENE/Level2.unity
   - enabled: 1
-    path: Assets/_SCENE/MENU_Middle.unity
-  - enabled: 1
     path: Assets/_SCENE/Level1.unity
+  - enabled: 1
+    path: Assets/_SCENE/HighScores.unity
   - enabled: 1
     path: Assets/Bravo.unity

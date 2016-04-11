@@ -16,6 +16,7 @@ TagManager:
   - BIG
   - Portal
   - BLACK
+  - ending
   layers:
   - Default
   - TransparentFX

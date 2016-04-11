@@ -19,13 +19,6 @@ public class PicaScoreLevel3 : MonoBehaviour {
 		{
 			Application.Quit();
 		}
-
-		
-		if (count == 5) {
-			Application.LoadLevel ("Bravo");
-			Cursor.visible = true;
-			
-		}
 	}
 	
 	void OnTriggerEnter2D (Collider2D other)
@@ -35,5 +28,9 @@ public class PicaScoreLevel3 : MonoBehaviour {
 		{
 			count += 1;
 		}
+
+        if (other.gameObject.CompareTag ("ending") && count == 5) {
+            Application.LoadLevel("Bravo");
+        }
 	}
 }
