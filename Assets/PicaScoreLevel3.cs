@@ -6,6 +6,7 @@ public class PicaScoreLevel3 : MonoBehaviour {
 	public int count;
 	public GameObject exitSprite;
 	public GameObject blockedSprite;
+    public GameObject manager;
 	
 	// Use this for initialization
 	void Start () {
@@ -26,11 +27,6 @@ public class PicaScoreLevel3 : MonoBehaviour {
 				exitSprite.SetActive(true);
 				blockedSprite.SetActive(false);
 			}
-
-		if (Input.GetKey(KeyCode.Escape))
-			{
-				Application.Quit();
-			}
 	}
 	
 	void OnTriggerEnter2D (Collider2D other)
@@ -42,7 +38,7 @@ public class PicaScoreLevel3 : MonoBehaviour {
 		}
 
         if (other.gameObject.CompareTag ("ending") && count == 5) {
-            Application.LoadLevel("Bravo");
+            manager.GetComponent<SaveScores>().Save();
         }
 	}
 }

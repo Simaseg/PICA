@@ -4,15 +4,36 @@ using UnityEngine.UI;
 
 public class LeaderboardManager : MonoBehaviour {
 
+    // singleton
+    private static LeaderboardManager _instance;
+    public static LeaderboardManager Instance {
+        get {
+            if (_instance == null) {
+                _instance = GameObject.FindObjectOfType<LeaderboardManager>();
+            }
+            return LeaderboardManager._instance;
+        }
+    }
+
     public static string s_playerName;
     public static float s_level1time;
     public static float s_level2time;
+    public static float s_endTime;
 
     public Text timeDisplay;
 
-    private float timeGlobal;
-	
-	void Update () {
+    [HideInInspector] public float timeGlobal;
+
+    // singleton
+    void Awake() {
+        if (_instance == null) _instance = this;
+        else {
+            DestroyImmediate(this);
+            return;
+        }
+    }
+
+    void Update () {
 		if (Application.loadedLevelName == "Level2") {
             s_level1time = Mathf.Round(Time.timeSinceLevelLoad);
         }

@@ -47,7 +47,7 @@ public class NewPlayerControler : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
+        Debug.Log(grounded);
 		if (Input.GetKeyDown (KeyCode.Space) && grounded)
 		{	
 			rb2d.AddForce(new Vector2 (0,jumpForce));
@@ -108,7 +108,7 @@ public class NewPlayerControler : MonoBehaviour {
 
 		if (other.gameObject.CompareTag ("BIG"))
 		{
-			transform.localScale = new Vector3(transform.localScale.x * 2, transform.localScale.y * 2, transform.localScale.z * 2);
+			transform.localScale = new Vector3(transform.localScale.x * 1.7f, transform.localScale.y * 1.7f, transform.localScale.z * 1.7f);
 
 			bigJump = true;
 			PlaySound (2);

@@ -168,6 +168,8 @@ GameObject:
   - 4: {fileID: 632290003}
   - 114: {fileID: 632290002}
   - 114: {fileID: 632290004}
+  - 114: {fileID: 632290005}
+  - 114: {fileID: 632290006}
   m_Layer: 0
   m_Name: Manger
   m_TagString: Untagged
@@ -210,6 +212,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialSelectedObject: {fileID: 1880915100}
+--- !u!114 &632290005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 632290001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f4f88502572fb4ebf09507c6a0fd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 791985597}
+--- !u!114 &632290006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 632290001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50023f950dce90e44bf0bb0c40381312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &680240550
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,8 +4,6 @@ using UnityEngine.UI;
 
 public class SaveScores : MonoBehaviour {
 
-    public Text saveResult;
-
     private string _saveScoreUrl = "http://e.menegazzi.free.fr/Pica_01/SaveScore.php?";
 
     IEnumerator SaveScore(string name, float score) {
@@ -17,12 +15,15 @@ public class SaveScores : MonoBehaviour {
 
         if (hs_post.error != null) {
             print("There was an error posting the high score: " + hs_post.error);
-            saveResult.text = "Il y a eu une erreur.";
+            Debug.Log("done");
         }
+
+        Application.LoadLevel("Bravo");
     }
 
     public void Save() {
-        StartCoroutine(SaveScore("Test01", Time.timeSinceLevelLoad));
-        saveResult.text = "Le score est sauvegardé.";
+        LeaderboardManager.s_endTime = LeaderboardManager.Instance.timeGlobal;
+        LeaderboardManager.Instance.timeGlobal = 0f;
+        StartCoroutine(SaveScore(LeaderboardManager.s_playerName, LeaderboardManager.s_endTime));
     }
 }
