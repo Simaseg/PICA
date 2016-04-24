@@ -21,7 +21,7 @@ public class EnterNameManager : MonoBehaviour {
     private int _actualLength = 0;
 
     void Start() {
-        EventSystem.current.SetSelectedGameObject(firstSelectedObject);
+        //EventSystem.current.SetSelectedGameObject(firstSelectedObject);
     }
 
     void Update() {

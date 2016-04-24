@@ -7,6 +7,6 @@ public class SetSelectedObject : MonoBehaviour {
     public GameObject initialSelectedObject;
 
     void Start() {
-        EventSystem.current.SetSelectedGameObject(initialSelectedObject);
+        //EventSystem.current.SetSelectedGameObject(initialSelectedObject);
     }
 }
